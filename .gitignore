@@ -1,0 +1,3 @@
+*.pyc
+ss/tmp/*
+ss.log
