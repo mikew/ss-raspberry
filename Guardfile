@@ -34,9 +34,9 @@ def sprocket_env
   environment
 end
 
-guard 'coffeescript', input: 'assets/javascripts', output: 'public/assets' do
-  watch(%r{^assets/.*\.coffee$})
-end
+#guard 'coffeescript', input: 'assets/javascripts', output: 'public/assets' do
+  #watch(%r{^assets/.*\.coffee$})
+#end
 
 guard 'sprockets2',
   sprockets:  sprocket_env,
