@@ -1,3 +1,6 @@
 *.pyc
 ss/tmp/*
 ss.log
+.sass-cache/
+Gemfile.lock
+public/assets/*
