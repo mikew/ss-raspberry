@@ -5,8 +5,9 @@ import os
 
 root = os.path.abspath(__file__ + '/../')
 
+@get('/e/<endpoint:path>')
 @get('/')
-def index():
+def index(endpoint = None):
     return template('index')
 
 @get('/payload/<endpoint:path>')
