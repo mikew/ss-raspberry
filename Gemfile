@@ -10,3 +10,4 @@ gem 'rb-fsevent'
 
 gem 'guard-coffeescript'
 gem 'guard-sprockets2'
+gem 'guard-haml'

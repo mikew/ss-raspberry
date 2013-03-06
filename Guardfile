@@ -47,3 +47,7 @@ guard 'sprockets2',
   watch(%r{^assets/(images|javascripts|stylesheets)/.+$})
   #watch(%r{^assets/.+$})
 end
+
+guard 'haml', input: 'haml', output: 'views' do
+  watch(%r{^haml/.+(\.html\.haml)})
+end
