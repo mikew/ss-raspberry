@@ -6,7 +6,7 @@ formatter = logging.Formatter("%(asctime)s - %(name)s\t- %(levelname)s\t%(messag
 log.setLevel(logging.DEBUG)
 
 import inspect, os
-log_file = os.path.abspath(inspect.getfile(inspect.currentframe()) + '/../../../../../ss.log')
+log_file = os.path.abspath(inspect.getfile(inspect.currentframe()) + '/../ss.log')
 fh = logging.FileHandler(log_file)
 #fh = logging.TimedRotatingFileHandler(log_file)
 fh.setLevel(logging.DEBUG)

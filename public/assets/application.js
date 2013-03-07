@@ -12449,7 +12449,7 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
     };
 
     Listings_episode.prototype.play = function() {
-      return alert("I will now play " + this.model.endpoint);
+      $.get("/player/play" + this.model.endpoint)
     };
 
     return Listings_episode;

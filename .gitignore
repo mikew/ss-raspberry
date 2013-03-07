@@ -4,3 +4,5 @@ ss.log
 .sass-cache/
 Gemfile.lock
 public/assets/jquery-1.9.1.js
+omxplayer.log
+omxplayer.old.log
