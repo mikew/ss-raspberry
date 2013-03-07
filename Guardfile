@@ -48,6 +48,10 @@ guard 'sprockets2',
   #watch(%r{^assets/.+$})
 end
 
-guard 'haml', input: 'haml', output: 'views' do
+guard 'haml',
+  input:        'haml',
+  output:       'views',
+  run_at_start: true do
+
   watch(%r{^haml/.+(\.html\.haml)})
 end

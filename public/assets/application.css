@@ -1,0 +1,123 @@
+/* line 17, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 61, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 100%;
+}
+
+/* line 64, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 16px;
+  line-height: 1.25em;
+}
+
+/* line 10, /Users/mike/Work/python/ss-pi/assets/stylesheets/app.css.sass */
+body {
+  font-family: Helvetica, Arial, sans;
+}
+
+/* line 13, /Users/mike/Work/python/ss-pi/assets/stylesheets/app.css.sass */
+#listings {
+  width: 800px;
+  margin: auto;
+}
+/* line 17, /Users/mike/Work/python/ss-pi/assets/stylesheets/app.css.sass */
+#listings > article {
+  *zoom: 1;
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 1.1875em;
+  margin-top: 1.25em;
+}
+/* line 38, /Users/mike/.rbenv/versions/1.9.3-p125-perf/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+#listings > article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 22, /Users/mike/Work/python/ss-pi/assets/stylesheets/app.css.sass */
+#listings > article img {
+  float: left;
+  width: 200px;
+}
+/* line 26, /Users/mike/Work/python/ss-pi/assets/stylesheets/app.css.sass */
+#listings > article h1, #listings > article p {
+  margin-left: 210px;
+}
+/* line 29, /Users/mike/Work/python/ss-pi/assets/stylesheets/app.css.sass */
+#listings > article h1 {
+  font-size: 1.25em;
+  line-height: 2em;
+  font-weight: bold;
+}
+/* line 33, /Users/mike/Work/python/ss-pi/assets/stylesheets/app.css.sass */
+#listings > article p {
+  color: #616161;
+}
+/*
+
+ */
+

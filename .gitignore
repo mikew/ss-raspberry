@@ -3,4 +3,4 @@ ss/tmp/*
 ss.log
 .sass-cache/
 Gemfile.lock
-public/assets/*
+public/assets/jquery-1.9.1.js
