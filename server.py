@@ -49,4 +49,11 @@ def listings_payload(endpoint):
 def get_asset(asset):
     return static_file(asset, root = root + '/public')
 
-run(host = '0.0.0.0', port = 8080, reloader = True)
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-p', '--port',   default = 8080, type = int)
+    parser.add_argument('-l', '--listen', default = '0.0.0.0')
+    args = parser.parse_args()
+
+    run(host = args.listen, port = args.port, reloader = True)
