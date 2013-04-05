@@ -20,7 +20,7 @@ class App.Views.Listings_episode extends App.Views.Listings_endpoint
     'click' : 'play'
 
   play: =>
-    $.get "/play/#{@model.endpoint}"
+    $.get "/player/play/#{@model.endpoint}"
 
 class App.Views.Listings_movie extends App.Views.Listings_episode
 
