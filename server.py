@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import ss
 from pyomxplayer import OMXPlayer
 from bottle import get, run, template, static_file
@@ -13,7 +15,7 @@ def index(endpoint = None):
 player = None
 @get('/player/play/<endpoint:path>')
 def play_media(endpoint):
-    wizard = ss.Wizard('/' + endpoint)
+    wizard = ss.Wizard(endpoint)
 
     def start_omxplayer(c):
         global player
@@ -47,4 +49,4 @@ def listings_payload(endpoint):
 def get_asset(asset):
     return static_file(asset, root = root + '/public')
 
-run(host = '10.0.1.21', port = 8080, reloader = True)
+run(host = '0.0.0.0', port = 8080, reloader = True)
